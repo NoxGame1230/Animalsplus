@@ -254,6 +254,10 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-1 {
+    min-height: 1656px;
+  }
+
   .u-section-1 .u-list-1 {
     width: 720px;
   }
@@ -262,15 +266,27 @@
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 1231px;
   }
+
+  .u-section-1 .u-text-13 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 1306px;
+  }
+
   .u-section-1 .u-list-1 {
     width: 540px;
   }
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
+  }
+
+  .u-section-1 .u-text-13 {
+    margin-top: -1090px;
   }
 }
 
